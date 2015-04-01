@@ -9,11 +9,11 @@ L.mapbox.accessToken = token;
 var map = L.mapbox.map('map', mapId);
 
 //Set the view of the map to the whole US
-// map.setView([39, -96], 4);
+ map.setView([39, -96], 4);
 
-// var dataFileToAdd = 'data/dc_national_parks.geojson';
+ var dataFileToAdd = 'data/dc_national_parks.geojson';
 
-// var featureLayer = L.mapbox.featureLayer().loadURL(dataFileToAdd).addTo(map)
+ var featureLayer = L.mapbox.featureLayer().loadURL(dataFileToAdd).addTo(map)
 
 // featureLayer.on('ready',function(){
 //   this.setStyle({
